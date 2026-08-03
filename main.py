@@ -6,9 +6,7 @@ from tensorflow.keras.preprocessing import sequence
 from tensorflow.keras.models import load_model
 import streamlit as st
 
-# ---------------------------------------------------------
-# Page Configuration
-# ---------------------------------------------------------
+
 st.set_page_config(
     page_title="IMDB Sentiment Analyzer",
     page_icon="🎬",
