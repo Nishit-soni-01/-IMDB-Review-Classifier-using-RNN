@@ -14,9 +14,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
-# ---------------------------------------------------------
-# Custom CSS — clean, classic, premium look
-# ---------------------------------------------------------
+
 st.markdown(
     """
     <style>
