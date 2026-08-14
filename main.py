@@ -163,9 +163,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# ---------------------------------------------------------
-# Step 2: Load Model and Word Index (cached for performance)
-# ---------------------------------------------------------
+
 @st.cache_resource(show_spinner=False)
 def load_sentiment_model():
     return load_model('simple_rnn_imdb.h5')
