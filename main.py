@@ -178,9 +178,7 @@ with st.spinner("Loading model..."):
     model = load_sentiment_model()
     word_index, reverse_word_index = load_word_index()
 
-# ---------------------------------------------------------
-# Step 3: Helper Functions
-# ---------------------------------------------------------
+
 def decode_review(encoded_review):
     return ' '.join([reverse_word_index.get(i - 3, '?') for i in encoded_review])
 
