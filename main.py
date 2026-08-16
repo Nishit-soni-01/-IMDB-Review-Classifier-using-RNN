@@ -190,9 +190,7 @@ def preprocess_text(text):
     padded_review = sequence.pad_sequences([encoded_review], maxlen=500)
     return padded_review
 
-# ---------------------------------------------------------
-# Step 4: UI Layout
-# ---------------------------------------------------------
+
 st.markdown('<div class="app-title">🎬 IMDB Sentiment Analyzer</div>', unsafe_allow_html=True)
 st.markdown(
     '<div class="app-subtitle">A simple RNN model that classifies movie reviews as positive or negative</div>',
